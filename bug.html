@@ -1,0 +1,3 @@
+<p>This is a common error, but the root cause can be subtle and tricky to debug. It happens when you use a tag that is not properly closed or nested.</p><pre><code>&lt;div&gt;
+  &lt;p&gt;This is some text&lt;p&gt;
+&lt;/div&gt;</code></pre><p>In this example, the opening <code>&lt;p&gt;</code> tag has a closing tag <code>&lt;/p&gt;</code> but the closing tag is also incorrectly opened <code>&lt;p&gt;</code>, instead of <code>&lt;/p&gt;</code>. This can lead to unexpected layout issues or the browser rendering the page incorrectly, and it may be difficult to spot in larger codebases. </p>
